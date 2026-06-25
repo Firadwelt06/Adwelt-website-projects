@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Work | Adwelt Enterprise</title>
+
+```
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+    html{
+        scroll-behavior:smooth;
+    }
+
+    body{
+        font-family:'Plus Jakarta Sans',sans-serif;
+        background:#F8FAFC;
+        color:#0f172a;
+    }
+
+    .hero-glow{
+        position:absolute;
+        width:450px;
+        height:450px;
+        border-radius:9999px;
+        filter:blur(140px);
+        opacity:.35;
+    }
+
+    .fade-up{
+        opacity:0;
+        transform:translateY(30px);
+        animation:fadeUp .8s ease forwards;
+    }
+
+    @keyframes fadeUp{
+        to{
+            opacity:1;
+            transform:translateY(0);
+        }
+    }
+
+    .architecture-arrow{
+        position:relative;
+    }
+
+    .architecture-arrow:not(:last-child)::after{
+        content:"↓";
+        display:block;
+        font-size:2rem;
+        color:#0f766e;
+        margin-top:1rem;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav id="navbar" class="fixed w-full z-50 transition-all duration-300 bg-transparent py-6">
+    <div class="container mx-auto px-6 flex justify-between items-center">
+
+```
+    <a href="https://firadwelt06.github.io/Adwelt-website/" class="flex items-center space-x-2">
+        <img src="adwelt-flat-icon.png" alt="Adwelt Logo" class="w-10 h-10 object-contain">
+
+        <span class="text-2xl md:text-3xl font-bold tracking-tight">
+            ADWELT
+            <span class="text-teal-700 underline decoration-teal-200 decoration-4 underline-offset-4">
+                ENTERPRISES
+            </span>
+        </span>
+    </a>
+
+    <div class="hidden md:flex items-center gap-8">
+        <a href="https://firadwelt06.github.io/Adwelt-website/" class="font-semibold hover:text-teal-700">Home</a>
+        <a href="https://firadwelt06.github.io/Adwelt-website/#services" class="font-semibold hover:text-teal-700">Services</a>
+        <a href="#" class="font-semibold text-teal-700">Past Work</a>
+        <a href="https://firadwelt06.github.io/Adwelt-website-about/" class="font-semibold hover:text-teal-700">About</a>
+        <a href="https://firadwelt06.github.io/Adwelt-website/#contact" class="font-semibold hover:text-teal-700">Contact</a>
+    </div>
+</div>
+```
+
+</nav>
+
+<!-- HERO -->
+
+<section class="pt-40 pb-24 bg-white overflow-hidden relative">
+
+```
+<div class="hero-glow bg-teal-200 top-0 left-20"></div>
+<div class="hero-glow bg-blue-200 bottom-0 right-20"></div>
+
+<div class="container mx-auto px-6">
+
+    <div class="grid lg:grid-cols-2 gap-14 items-center">
+
+        <div>
+
+            <div class="inline-flex items-center gap-2 bg-teal-50 border border-teal-100 text-teal-700 px-4 py-2 rounded-full text-sm font-bold mb-8">
+                <i data-lucide="folder-git-2" class="w-4 h-4"></i>
+                Featured Project
+            </div>
+
+            <h1 class="text-5xl lg:text-7xl font-black tracking-tight mb-4">
+                SmartRIS
+            </h1>
+
+            <h2 class="text-2xl lg:text-3xl text-slate-700 font-bold mb-6">
+                Student Result Intelligence System
+            </h2>
+
+            <p class="text-lg text-slate-600 leading-relaxed mb-10">
+                A database-driven platform that automates student result processing,
+                academic analytics, ranking computation and professional report card generation
+                for schools.
+            </p>
+
+            <div class="flex flex-wrap gap-4">
+
+                <button
+                    class="bg-slate-900 text-white px-8 py-4 rounded-xl font-bold cursor-default">
+                    Private Repository
+                </button>
+
+                <a href="https://firadwelt06.github.io/Adwelt-website/"
+                   class="border border-slate-300 px-8 py-4 rounded-xl font-bold hover:bg-slate-100 transition">
+                    Back to Portfolio
+                </a>
+
+            </div>
+
+        </div>
+
+        <div>
+            <img
+                src="assets/images/dashboard.jpeg"
+                alt="SmartRIS Dashboard"
+                class="rounded-[30px] shadow-2xl border border-slate-200">
+        </div>
+
+    </div>
+
+</div>
+```
+
+</section>
+
+<!-- QUICK OVERVIEW -->
+
+<section class="py-16">
+    <div class="container mx-auto px-6">
+
+```
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div class="bg-white rounded-3xl p-8 shadow-sm">
+            <div class="text-slate-500 text-sm mb-2">Status</div>
+            <div class="font-bold text-xl">Active Development</div>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 shadow-sm">
+            <div class="text-slate-500 text-sm mb-2">Role</div>
+            <div class="font-bold text-xl">Sole Developer</div>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 shadow-sm">
+            <div class="text-slate-500 text-sm mb-2">Database</div>
+            <div class="font-bold text-xl">MySQL</div>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 shadow-sm">
+            <div class="text-slate-500 text-sm mb-2">Tech Stack</div>
+            <div class="font-bold">
+                Python • Streamlit • Pandas • ReportLab
+            </div>
+        </div>
+
+    </div>
+
+</div>
+```
+
+</section>
+
+<!-- PROJECT OVERVIEW -->
+
+<section class="py-20 bg-white">
+<div class="container mx-auto px-6 max-w-4xl">
+
+<h2 class="text-4xl font-black mb-8">
+Project Overview
+</h2>
+
+<p class="text-lg text-slate-600 leading-relaxed">
+SmartRIS was developed to solve a common challenge faced by many schools:
+managing academic records through disconnected spreadsheets and manual workflows.
+Traditional Excel-based systems often become difficult to maintain as data grows.
+
+SmartRIS replaces this fragmented process with a centralized database-driven platform
+that automates result processing, ranking computation, analytics generation,
+and professional PDF report card production.
+
+The system is currently being expanded with an online student-access portal.
+
+</p>
+
+</div>
+</section>
+
+<!-- PROBLEM -->
+
+<section class="py-20">
+<div class="container mx-auto px-6 max-w-4xl">
+
+<h2 class="text-4xl font-black mb-8">
+The Problem
+</h2>
+
+<ul class="space-y-4 text-lg text-slate-600">
+
+<li>• Risk of file corruption or accidental deletion</li>
+<li>• Repetitive manual result processing</li>
+<li>• Difficulty maintaining data consistency</li>
+<li>• Slow report card generation</li>
+<li>• Limited visibility into student performance trends</li>
+<li>• No centralized source of academic data</li>
+
+</ul>
+
+</div>
+</section>
+
+<!-- SOLUTION -->
+
+<section class="py-20 bg-white">
+<div class="container mx-auto px-6 max-w-4xl">
+
+<h2 class="text-4xl font-black mb-8">
+The Solution
+</h2>
+
+<div class="grid md:grid-cols-2 gap-6">
+
+<div class="bg-slate-50 rounded-3xl p-6">Student Registration & Management</div>
+<div class="bg-slate-50 rounded-3xl p-6">Bulk CSV Import</div>
+<div class="bg-slate-50 rounded-3xl p-6">Result Entry & Storage</div>
+<div class="bg-slate-50 rounded-3xl p-6">Automated Ranking Computation</div>
+<div class="bg-slate-50 rounded-3xl p-6">Analytics Dashboard</div>
+<div class="bg-slate-50 rounded-3xl p-6">PDF Report Generation</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- ARCHITECTURE -->
+
+<section class="py-24">
+<div class="container mx-auto px-6">
+
+<h2 class="text-center text-4xl font-black mb-16">
+Architecture Flow
+</h2>
+
+<div class="max-w-md mx-auto text-center">
+
+<div class="architecture-arrow bg-white rounded-3xl p-5 shadow-sm">Student Data</div>
+<div class="architecture-arrow bg-white rounded-3xl p-5 shadow-sm">CSV Upload</div>
+<div class="architecture-arrow bg-white rounded-3xl p-5 shadow-sm">Pandas Processing</div>
+<div class="architecture-arrow bg-white rounded-3xl p-5 shadow-sm">MySQL Database</div>
+<div class="architecture-arrow bg-white rounded-3xl p-5 shadow-sm">Analytics Engine</div>
+<div class="architecture-arrow bg-white rounded-3xl p-5 shadow-sm">PDF Generator</div>
+<div class="bg-teal-700 text-white rounded-3xl p-5 shadow-sm">
+Student Report Cards
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- SCREENSHOTS -->
+
+<section class="py-24 bg-white">
+
+<div class="container mx-auto px-6">
+
+<h2 class="text-center text-4xl font-black mb-16">
+System Screenshots
+</h2>
+
+<div class="space-y-20">
+
+<div>
+<img src="assets/images/dashboard.jpeg" class="rounded-[30px] shadow-xl w-full">
+<p class="mt-6 text-center text-slate-600">
+Administrative dashboard displaying academic analytics,
+class performance metrics, rankings and reporting tools.
+</p>
+</div>
+
+<div>
+<img src="assets/images/student-management.jpeg" class="rounded-[30px] shadow-xl w-full">
+<p class="mt-6 text-center text-slate-600">
+Student registration interface supporting both manual entry and bulk CSV imports.
+</p>
+</div>
+
+<div>
+<img src="assets/images/sample-reportcard.jpeg" class="rounded-[30px] shadow-xl w-full">
+<p class="mt-6 text-center text-slate-600">
+Professionally formatted PDF report cards generated automatically from database records.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TECHNICAL HIGHLIGHTS -->
+
+<section class="py-24">
+
+<div class="container mx-auto px-6">
+
+<h2 class="text-center text-4xl font-black mb-16">
+Technical Highlights
+</h2>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+
+<div class="bg-white p-6 rounded-3xl">
+<h3 class="font-bold mb-3">Database-Driven Design</h3>
+<p>Centralized MySQL architecture replacing spreadsheet workflows.</p>
+</div>
+
+<div class="bg-white p-6 rounded-3xl">
+<h3 class="font-bold mb-3">Automated Analytics</h3>
+<p>Performance calculations and rankings generated automatically.</p>
+</div>
+
+<div class="bg-white p-6 rounded-3xl">
+<h3 class="font-bold mb-3">Bulk Upload Support</h3>
+<p>CSV onboarding for large student populations.</p>
+</div>
+
+<div class="bg-white p-6 rounded-3xl">
+<h3 class="font-bold mb-3">Professional PDF Reports</h3>
+<p>Automated ReportLab report generation.</p>
+</div>
+
+<div class="bg-white p-6 rounded-3xl">
+<h3 class="font-bold mb-3">Scalable Structure</h3>
+<p>Prepared for cloud deployment and online access.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ROADMAP -->
+
+<section class="py-24 bg-white">
+
+<div class="container mx-auto px-6 max-w-3xl">
+
+<h2 class="text-4xl font-black mb-10">
+Future Roadmap
+</h2>
+
+<div class="space-y-4 text-lg">
+
+<p>☑ Database Migration</p>
+<p>☑ Automated PDF Generation</p>
+<p>☑ Academic Analytics Dashboard</p>
+<p>☑ Bulk CSV Upload System</p>
+<p>☐ Student Online Portal</p>
+<p>☐ Parent Access Portal</p>
+<p>☐ Role-Based Access Control</p>
+<p>☐ Cloud Deployment</p>
+<p>☐ Online Result Checking</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- MY ROLE -->
+
+<section class="py-24">
+
+<div class="container mx-auto px-6 max-w-4xl">
+
+<h2 class="text-4xl font-black mb-8">
+My Role
+</h2>
+
+<p class="text-lg text-slate-600 leading-relaxed">
+I served as the sole developer throughout the project lifecycle.
+Responsibilities included system architecture design, database design,
+backend development, Streamlit interface development,
+CSV upload pipeline implementation, analytics and ranking logic,
+PDF report generation, testing and deployment.
+</p>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="py-24 bg-slate-900 text-white">
+
+<div class="container mx-auto px-6 text-center max-w-3xl">
+
+<h2 class="text-5xl font-black mb-6">
+Interested in Building Something Similar?
+</h2>
+
+<p class="text-xl text-slate-300 mb-10">
+Let's discuss how automation, analytics and database systems can improve your workflow.
+</p>
+
+<a href="https://firadwelt06.github.io/Adwelt-website/#contact"
+class="bg-teal-700 px-10 py-4 rounded-xl inline-block font-bold">
+Contact Me </a>
+
+</div>
+
+</section>
+
+<script>
+
+lucide.createIcons();
+
+const navbar = document.getElementById('navbar');
+
+window.addEventListener('scroll', () => {
+
+if(window.scrollY > 20){
+
+navbar.classList.remove('bg-transparent','py-6');
+navbar.classList.add('bg-white','shadow-sm','py-3');
+
+}else{
+
+navbar.classList.remove('bg-white','shadow-sm','py-3');
+navbar.classList.add('bg-transparent','py-6');
+
+}
+
+});
+
+</script>
+
+</body>
+</html>
